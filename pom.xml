@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>CraigslistCrawler</groupId>
+  <artifactId>CraigslistCrawler</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>CraigslistCrawler</name>
+  <packaging>jar</packaging>
+  <url>http://maven.apache.org</url>
+
+  <build>
+      <sourceDirectory>${basedir}/src</sourceDirectory>
+  </build>
+
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.10.1</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
